@@ -37,6 +37,10 @@ nav > ul > li > a {
     border-top: 2px solid gray;
 }
 
+nav > ul > li > a:hover {
+    background-color: gray;
+}
+
 span#burger {
     background-color: rgb(48, 48, 48);
     display: block;
@@ -49,10 +53,6 @@ span#burger {
 span#burger:hover {
     background-color: white;
     color: black;
-}
-
-nav > ul > li > a:hover {
-    background-color: gray;
 }
 
 main {
